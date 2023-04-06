@@ -1,2 +1,2 @@
 # css-project
-first project on css
+First project on css, by creating a webpage based on the knowledge i acquired so far in the course.
