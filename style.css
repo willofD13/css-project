@@ -3,6 +3,8 @@ body {
 }
 
 .head {
+    display: flex;
+    justify-content: space-around;
     background-color:#1F2937;
 }
 
@@ -76,7 +78,8 @@ button {
 
 .media {
     display: flex;
-    
+
+
 }
 
 .head-img {
