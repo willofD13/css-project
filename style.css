@@ -41,11 +41,23 @@ a {
 button {
     background-color: #3882f6;
     color: #e5e7eb;
-    flex-grow: 0;
+    padding: 8px;
+}
+
+.b-1 {
     margin-top: 40px;
 }
 
+.main-body {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    padding: 48px;
+    gap: 30px;
+}
+
 .header-2 {
+    text-align: center;
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
@@ -58,8 +70,21 @@ button {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    
+}
+
+.call {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
     background-color: #3882f6;
     color: #ffffff;
+    width: 600px;
 }
 
 .quote {
@@ -67,7 +92,15 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    padding: 64px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
+.stan {
+    text-align: end;
+}
+
 .images {
     display: flex;
     gap: 16px;
@@ -81,6 +114,7 @@ button {
     padding-top: 25px;
     padding-left: 80px;
 }
+
 
 
 
