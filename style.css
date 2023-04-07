@@ -24,3 +24,8 @@ a {
     font-size: 48px;
     font-weight: bolder;
 }
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
