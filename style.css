@@ -1,16 +1,19 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 
 .head {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color:#1F2937;
+    padding: 64px;
 }
 
 .logo {
+    
     font-size: 24px;
-    color: #f9faf9;
+    color: #fa0909;
 }
 
 ul ,
@@ -28,14 +31,18 @@ a {
 }
 
 .header-1 {
+    padding-top: 25px;
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
+    width: 400px;
 }
 
 button {
     background-color: #3882f6;
     color: #e5e7eb;
+    flex-grow: 0;
+    margin-top: 40px;
 }
 
 .header-2 {
@@ -69,19 +76,13 @@ button {
     padding: 16px;
     padding-bottom: 32px;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.media {
-    display: flex;
-
-
-}
 
 .head-img {
-    width: 400px;
+    padding-top: 25px;
+    padding-left: 80px;
 }
+
+
+
+
+
