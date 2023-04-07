@@ -29,3 +29,13 @@ button {
     background-color: #3882f6;
     color: #e5e7eb;
 }
+
+.header-2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+ .covers{
+    border: 8px solid rgb(4, 4, 5);
+}
