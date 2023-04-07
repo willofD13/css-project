@@ -73,3 +73,12 @@ button {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+.media {
+    display: flex;
+    
+}
+
+.head-img {
+    width: 400px;
+}
