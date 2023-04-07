@@ -14,7 +14,7 @@ ul ,
     font-size: 18px;
 }
 
-a {
+a,{
     text-decoration: none;
     color: #e5e7eb;
 }
@@ -38,9 +38,17 @@ button {
 
  .covers{
     border: 8px solid rgb(4, 4, 5);
+    border-style: ;
 }
 
 .footer {
     background-color: #3882f6;
     color: #ffffff;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
 }
